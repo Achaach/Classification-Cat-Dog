@@ -3,6 +3,13 @@
 ## Introduction
 In this project we will build a model to do classification using CNN of our image dataset which includes cat and dog images. a convolutional network receives a normal color image as a rectangular box whose width and height are measured by the number of pixels along those dimensions, and whose depth is three layers deep, one for each letter in RGB.As images move through a convolutional network, different patterns are recognised just like a normal neural network. But here rather than focussing on one pixel at a time, a convolutional net takes in square patches of pixels and passes them through a filter. That filter is also a square matrix smaller than the image itself, and equal in size to the patch. It is also called a kernel.
 
+## Data
+Dogs vs. Cats: Create an algorithm to distinguish dogs from cats
+
+https://www.kaggle.com/competitions/dogs-vs-cats/data
+
+Data has been splited into training and testing set, containing dogs and cats in each set.
+
 ## Model
 
 To buil a CNN model, we mainly follow the steps:
@@ -33,4 +40,9 @@ The Loss&Accuracy vs Epoch are shown below:
 And here is the visualization of the classification on my dataset:
 
 ![my_cat_classification](https://user-images.githubusercontent.com/90078254/218219595-be7bfc24-254f-45e1-91c4-515894841527.png)
+
+## Reference:
+https://www.kaggle.com/code/ruchibahl18/cats-vs-dogs-basic-cnn-tutorial
+
+https://www.kaggle.com/code/uysimty/keras-cnn-dog-or-cat-classification
 
